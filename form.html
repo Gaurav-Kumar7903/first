@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM FILL UP</title>
+</head>
+<body>
+	<h1>REGISTER</h1>
+	<form>
+		<label><b>First Name:</b>
+			<input type="text" name="first name"placeholder="First name" required>
+		</label>
+		<label><b>Last Name:</b>
+			<input type="text" name="last name" placeholder="Last Name" required>
+		</label><br><br>
+		<label>Male
+			<input type="radio" name="gender" required>
+		</label>
+		<label>Female
+			<input type="radio" name="gender" required>
+		</label>
+		<label>Other
+			<input type="radio" name="gender" required>
+		</label><br><br>
+		<label>Email:
+			<input type="email" name="email" required>
+		</label>
+		<label>Password:
+			<input type="password" name="password" minlength="8" maxlength="12" required >
+		</label><br><br>
+		<label>Birthday:
+			<select>
+				<option>Month</option>
+				<!-- <option value="">Month</option> -->
+				<option>feb</option>
+				<option>august</option>
+				<option>september</option>
+			</select>
+			<select>
+				<option>Day</option>
+				<!-- <option value="">Day</option> -->
+				<option>02</option>
+				<option>12</option>
+				<option>13</option>
+			</select>
+			<select>
+				<option>Year</option>
+				<!-- <option value="">Year</option> -->
+				<option>1996</option>
+				<option>1997</option>
+				<option>1998</option>
+			</select>
+		</label><br><br>
+		<label>I agree to terms and condition
+			<input type="checkbox" name="agree" required>
+		</label><br><br>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
